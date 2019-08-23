@@ -1,0 +1,302 @@
+
+/* ////////SECTION FOR EDUCATION WEBSITE REDESIGN///////// */
+
+.parallaxedu1 {
+    /* The image used */
+    background-image: url("../images_edu/systemic-evaluation.jpg");
+  
+    /* Set a specific height */
+    min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#whyedu_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: white; */
+    color: darkslategrey;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  #analysisimage {
+    display: flex;
+    margin: auto 25px;
+    margin-left: 140px;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #whyedutext {
+      padding: 20px 140px;
+  }
+
+  .parallaxedu2 {
+    /* The image used */
+    background-image: url("../images_edu/old\ web.png");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+  }
+
+  #checkoldedu {
+      text-align: center;
+      color: rgb(11, 87, 55);
+  }
+
+  #arrow_down {
+      margin-left: 620px;
+  }
+
+  .edu-user {
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+  }
+
+  #edu-user_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: white; */
+    color: darkslategrey;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #usertext {
+    /* padding: 20px 140px; */
+    text-align: center;
+  }
+
+  #edu-user-text {
+      padding: 20px 140px;
+  }
+
+  #user_image {
+    vertical-align: middle;
+    border-style: none;
+    width: 1000px;
+    margin: 0 150px;
+  }
+
+
+  #task_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: white; */
+    color: darkslategrey;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  #task-text {
+    padding: 20px 140px;
+}
+
+#task_list{
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    margin-right: 200px;
+    padding-left: 200px !important;
+}
+  
+  .parallaxedu3 {
+    /* The image used */
+    background-image: url(../images_edu/test.jpg);
+  
+    /* Set a specific height */
+    min-height: 300px; 
+   
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+  }
+
+
+  .heuru{
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+  }
+
+  #heuru_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: white; */
+    color: darkslategrey;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #heurutext {
+      padding: 20px 200px;
+  }
+
+  #heuru-image {
+    vertical-align: middle;
+    border-style: none;
+    width: 1000px;
+    margin: 0 150px;
+  }
+
+  #list_analysis {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    margin-right: 200px;
+    padding-left: 200px !important;
+  }
+
+
+
+  #circles_image {
+      padding: 10px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      display: block;
+  }
+
+  #ia-section{
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: rgb(7, 7, 61) !important;
+    padding-top: 20px;
+  }
+
+  #ia_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(7, 7, 61) !important;
+    color: rgb(233, 241, 241) !important;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #iatext {
+      padding: 20px 200px;
+      color: whitesmoke;
+  }
+
+  .parallaxedu4 {
+    /* The image used */
+    background-image: url(../images_edu/nav-cards.png);
+  
+    /* Set a specific height */
+    min-height: 500px; 
+   
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
+
+  #sitemap {
+      background-color: rgb(7, 7, 61) !important;
+  }
+
+  #sitemap-image {
+      max-width: 900px;
+            padding: 10px 20px;
+            margin: 0 auto;
+            display: block;
+  }
+
+  #sitemap_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(7, 7, 61) !important;
+    color: rgb(233, 241, 241) !important;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #styletile{
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: rgb(7, 7, 61) !important;
+    padding-top: 20px;
+  }
+
+  #styletile_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(7, 7, 61) !important;
+    color: rgb(233, 241, 241) !important;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #styletext {
+      padding: 20px 200px;
+      color: whitesmoke;
+  }
+
+  #greenText {
+      color: green;
+  }
+
+  #blueText {
+    color: rgb(32, 170, 224);
+}
+
+#opensansText {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(206, 174, 228);
+}
+
+#blue-green {
+    padding: 0 250px;
+    color: whitesmoke;
+}
+
+.parallaxedu5 {
+    /* The image used */
+    background-image: url(../images_edu/styletile.png);
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

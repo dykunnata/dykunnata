@@ -315,8 +315,9 @@ footer {
 .nata {
     font-size: 60px;
     padding: 30px;
-    background: #f5f5f5;
-    opacity: 0.2;
+    background: #f8f9fa38;
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
 }
 
 .ux {
@@ -386,12 +387,19 @@ footer {
   }
   
   .flex-container > div {
-    background-color: white;
+    /* background-color: white;
     width: 48%;
-    margin: 10px;
+    margin: 12px;
     line-height: 25px;
     border: solid 1px whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px; */
+    background-color: white;
+    width: 44%;
+    margin: 10px auto;
+    line-height: 25px;
+    border: solid 1px whitesmoke;
+    box-shadow: 0 4px 4px 0 #dee2e68c, 0 4px 10px 0 rgba(0, 0, 0, 0.05);
     border-radius: 6px;
   }
 
@@ -671,8 +679,9 @@ footer {
   }
 }
 
-.column2:hover {
-    padding: 15px;
+#circle:hover {
+    background: url(../images/fallchiccago.png);
+    border: 2px solid white;
 }
 /* Arrow up section */
 
@@ -983,7 +992,28 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
     }
 }
 
-
+#customPreloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ececec;
+  color: green;
+  font-style: italic;
+  z-index: 10000000;
+  /* display: none; */
+}
+#preloaderSpan {
+  display: none;
+}
+#preloaderI {
+  display: none;
+}
 
 
 
