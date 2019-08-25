@@ -300,3 +300,73 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
+  #sketch{
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+  }
+
+  #sketch_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: white; */
+    color: darkslategrey;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  /* #sketchtext {
+      padding: 20px 200px;
+      width: 30%;
+
+  }
+
+  #sketch-image {
+    vertical-align: middle;
+    border-style: none;
+    width: 50%;
+  }
+
+  #parent-sketch {
+      display: 
+  } */
+
+  .clearfix {
+    overflow: auto;
+    padding: 20px 140px;
+  }
+  
+  #sketch-image {
+    float: right;
+    width: 40%;
+    padding: 20px auto;
+    padding-left: 80px;
+  }
+
+  #consider {
+      font-size: 22px;
+      color: darkolivegreen;
+  }
+
+  #bold {
+      font-style: oblique;
+  }
+
+  .parallaxedu6 {
+    /* The image used */
+    background-image: url(../images_edu/globe.jpg);
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
