@@ -90,10 +90,10 @@
   }
 
   #user_image {
-    vertical-align: middle;
-    border-style: none;
-    width: 1000px;
-    margin: 0 150px;
+    max-width: 900px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: block;
   }
 
 
@@ -159,11 +159,20 @@
   }
 
   #heuru-image {
-    vertical-align: middle;
+    /* vertical-align: middle;
     border-style: none;
-    width: 1000px;
-    margin: 0 150px;
+    max-width: 900px;
+    margin: 0 150px; */
+    max-width: 900px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: block;
   }
+/* 
+  max-width: 900px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: block; */
 
   #list_analysis {
     text-align: left;
@@ -590,4 +599,19 @@
     color: darkslategray;
     font-weight: 600;
     font-size: 25px;
+  }
+
+
+  /* @media screen and (orientation: portrait) { */
+
+    @media screen and (max-width: 1000px) and (min-width: 600px) {
+    #heuru-image {
+        max-width: 500px;
+        padding: 10px 5px;
+      }
+
+      #user_image {
+        max-width: 500px;
+        padding: 10px 5px;
+      }
   }
