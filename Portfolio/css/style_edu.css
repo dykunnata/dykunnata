@@ -602,9 +602,9 @@
   }
 
 
-  /* @media screen and (orientation: portrait) { */
+  @media screen and (orientation: portrait) 
+  {
 
-    @media screen and (max-width: 1000px) and (min-width: 600px) {
     #heuru-image {
         max-width: 500px;
         padding: 10px 5px;
@@ -614,4 +614,89 @@
         max-width: 500px;
         padding: 10px 5px;
       }
+
+      #whyedutext {
+        padding: 20px 20px;
+    }
+
+    #task-text {
+        padding: 20px 20px;
+    }
+    
+    #task_list{
+        margin-right: 40px;
+        padding-left: 50px !important;
+    }
+
+    #circles_image {
+        padding: 10px 20px;
+        max-width: 500px;
+    }
+    #heurutext {
+        padding: 20px 20px;
+    }
+  
+    #list_analysis {
+      margin-right: 40px;
+      padding-left: 50px !important;
+    }
+    #iatext {
+        padding: 20px 20px;
+        color: whitesmoke;
+    }
+    #styletext {
+        padding: 20px 20px;
+        color: whitesmoke;
+    }
+    #blue-green {
+        padding: 0 20px;
   }
+
+
+.clearfix {
+    padding: 20px 20px;
+    }
+.clearfix1 {
+    padding: 20px 20px;
+        }
+
+#ed-images {
+ margin: 10px 10px;
+ padding-left: 5px;
+
+    }
+
+    #mobile2 {
+        padding: 5px 10px;
+    }
+    #cell-image2 {
+        margin-left: 5px;
+    }
+
+    #testplan-image {
+        padding: 20px 10px;
+        margin-left: 40px;
+    }
+
+    ul#resultslist {
+        padding-left: 60px !important;
+    }
+    ul {
+        margin-right: 40px !important;
+    }
+    #maze-image {
+        padding: 20px 20px;
+        margin-left: 40px;
+    }
+    #next {
+        margin: 30px 30px !important;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .parallaxedu1 {
+        background-attachment: scroll;
+        background-size: 100%;
+    }
+}
