@@ -370,3 +370,213 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
+
+  #Wireframes {
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  #wires_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #wires-image {
+      padding: 20px 100px;
+  }
+
+  #ed-images {
+    margin: 10px 100px;
+    padding-left: 60px;
+    display: inline-block;
+  }
+
+  .parallaxedu7 {
+    /* The image used */
+    background-image: url(../images_edu/allscreens.png);
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .clearfix1 {
+    overflow: auto;
+    padding: 20px 120px;
+  }
+
+  #mobile-image {
+    float: right;
+    width: 60%;
+    padding: 20px auto;
+    padding-left: 80px;
+  }
+  
+
+
+  #mobile {
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  #mobile_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+ #mobile2 {
+     display: inline-block;
+     padding: 5px 100px;
+ }
+
+#cell-image2 {
+    margin-left: 80px;
+}
+
+  #mobscreens {
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  /* #mobscreens_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 25px;
+  } */
+
+
+  #mobscreens-images {
+      padding: 20px 100px;
+  }
+
+
+  #testing {
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  #testplan_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #testplan-image {
+    padding: 20px 150px;
+    margin-left: 120px;
+  }
+
+
+  #testresults {
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  #results_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #results-image {
+    padding: 20px 150px;
+    margin-left: 120px;
+  }
+
+  ul#resultslist {
+    padding-left: 220px !important;
+  }
+
+
+  #maze {
+    font-family: 'Muli', sans-serif;
+    /* background-color: white; */
+    padding-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  #maze_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  #maze-image {
+    padding: 20px 150px;
+    margin-left: 120px;
+  }
+
+  .parallaxedu8 {
+    /* The image used */
+    background-image: url(../images_edu/book-edu.jpg);
+  
+    /* Set a specific height */
+    min-height: 400px; 
+   
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

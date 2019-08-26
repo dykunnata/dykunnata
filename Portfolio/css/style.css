@@ -305,6 +305,9 @@ footer {
 #gradient {
     height: 100vh;
     background-image: url(../images/listik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .data {
