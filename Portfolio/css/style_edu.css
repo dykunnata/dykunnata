@@ -580,3 +580,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  #links_title {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 25px;
+  }
