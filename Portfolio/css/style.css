@@ -398,7 +398,7 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 6px; */
     background-color: white;
-    width: 44%;
+    width: 45%;
     margin: 10px auto;
     line-height: 25px;
     border: solid 1px whitesmoke;
@@ -419,9 +419,13 @@ footer {
   }
 
   #petbooktext {
-      font-size: 16px;
+      font-size: 14px;
       text-align: left;
       padding: 20px 20px;
+  }
+  
+  #pet {
+    margin: 0 90px;
   }
 
   .project2 {
@@ -431,6 +435,7 @@ footer {
   #bee {
       padding: 20px;
       padding-left: 80px;
+      margin: 0 100px;
       
   }
 
@@ -442,7 +447,7 @@ footer {
   }
 
   #beestext {
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     padding: 20px 20px;
 }
@@ -464,7 +469,7 @@ footer {
   }
 
   #edutext {
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     padding: 20px 20px;
 }
@@ -475,6 +480,7 @@ footer {
 
   #fffpicture {
       padding: 10px;
+      margin-left: 10px;
       
   }
 
@@ -486,7 +492,7 @@ footer {
   }
 
   #ffftext {
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     padding: 20px 20px;
 }
@@ -504,7 +510,7 @@ footer {
     width: 160px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 20px;
+    margin-left: 15px;
   }
   
   .button span {
