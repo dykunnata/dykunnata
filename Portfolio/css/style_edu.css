@@ -693,11 +693,31 @@
         margin: 30px 30px !important;
     }
 
-  }
-
-  @media (max-width: 768px) {
     .parallaxedu1 {
         background-attachment: scroll;
-        background-size: 100%;
+        background-size: 50%;
     }
+
+    .parallaxedu2 {
+        background-attachment: scroll;
+        background-size: 100%;
+
+  }
+
+  .parallaxedu4 {
+    background-attachment: scroll;
+    background-size: 120%;
+  }
+
+  .parallaxedu5 {
+    background-attachment: scroll;
+    background-size: 120%;
+  }
+
+  .parallaxedu7 {
+    background-attachment: scroll;
+    background-size: 120%;
+  }
 }
+ 
+  
