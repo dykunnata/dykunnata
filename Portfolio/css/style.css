@@ -686,6 +686,16 @@ footer {
 .row2 {
     display: flex;
   }
+  #pet {
+    margin: 0 auto;
+  }
+
+  #bee {
+    padding: 20px;
+    padding-left: 40px;
+    margin: 0 auto;
+    
+}
 }
 
 #circle:hover {
