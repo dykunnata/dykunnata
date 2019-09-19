@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    width: 100vw;
+}
+
+#beeheader {
+    margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-link:hover { 
+    background-color: rgb(191, 218, 197);
+    border-radius: 8px;
+  }
+
+  #beee {
+    float: right;
+    margin: 0 50px;
+    width: 45%;
+  }
+
+  .post-container {
+      padding: 10px 100px;
+  }
+
+  .aboutbees {
+      padding: 0 100px;
+  }
+
+  .mission {
+      padding: 0 60px;
+      padding-top: 20px;
+      font-weight: bold;
+      color: #614405;
+      font-size: 30px;
+  }
+
+  .mission2 {
+    padding: 10px 60px;
+}
+
+
+
+  .fff {
+    color: #e2a115;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 36px;
+    font-weight: bold;
+    /* font-family: 'Fredoka One', cursive; */
+  }
+
+.fff2 {
+  color: #64400a;
+  opacity: 0.8;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+  margin-left: -20px;
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
+}
+
+  .work_fff {
+    display: flex;
+    background-color: white;
+  }
+
+  .hero {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-left: 20px;
+    float: left;
+    margin-bottom: 40px; */
+  }
+
+
+  #myrole {
+    width: 25%;
+    padding-left: 80px;
+    padding-top: 25px;
+    margin-right: 20px;
+    float: left;
+    font-family: 'Muli', sans-serif;
+    color:  rgb(23, 92, 73);
+    font-weight: bold;
+  }
+
+  #overview {
+    width: 35%;
+    padding-left: 10px;
+    padding-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+    font-family: 'Muli', sans-serif;
+  }
+
+  #problem_top {
+    width: 35%;
+    /* display: inline-block;
+    padding-right: 100px;
+    float: right; */
+    padding-left: 50px;
+    padding-top: 25px;
+    margin-right: 60px;
+float: right;
+    font-family: 'Muli', sans-serif;
+  }
+
+  .group {
+      color: black;
+  }
+
+  .group2 {
+    color: #125c37;
+    font-weight: bold;
+}
+
+.parallax0 {
+    /* The image used */
+    background-image: url("../images/bee-on-flower.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/mount.png");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .einstein {
+      padding: 50px 160px;
+      /* background-color: rgb(117, 146, 209); */
+      background-color: #6ab690;
+      text-align: right;
+      justify-content: center;
+      color: white;
+      font-size: 25px;
+  }
+
+  #albert {
+      text-align: right;
+      font-size: 18px;
+  }
+
+  #bee-ein {
+      width: 6%;
+  }
+
+  .survey {
+    padding: 10px 100px;
+    background-color: white;
+}
+
+#chart {
+    float: right;
+    margin-top: -30px;
+  }
+
+  #survey-it {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 60px;
+  }
+
+.competitor {
+    background-color: #FBFAF5;
+}
+
+  #comp-analysis {
+      width: 70vw;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+
+
+  #matrix-image {
+      width: 70vw;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+
+  .matrix-text {
+    padding: 10px 100px;
+}
+
+.feature{
+    padding: 0 60px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #614405;
+    font-size: 30px;
+}
+
+.matrix-words {
+    padding: 10px 60px;
+}
+
+.persona {
+    padding: 0 60px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #614405;
+    font-size: 30px;
+}
+
+.user-title {
+    padding: 10px 100px;
+}
+
+.persona-words {
+    padding: 10px 60px;
+}
+
+
+#user-persona-image {
+    width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bee {
+    position: fixed;
+    float: right;
+}
+
+#bee-image {
+    width: 20%;
+}
+
+.bee1 {
+    position: fixed;
+    float: right;
+    margin: 20px 80px;
+}
+
+.bee2 {
+    position: fixed;
+    float: right;
+    margin: -35px 30px;
+}
+
+.sitemap-title {
+    padding: 10px 100px;
+    background-color: #FBFAF5;
+}
+
+.sitemap-words {
+    padding: 10px 60px;
+}
+
+
+#sitemap-pic {
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    background-color: #FBFAF5;
+}
+
+.sitemap {
+    padding: 0 60px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #614405;
+    font-size: 30px;
+}
+
+.sitemap-image {
+    background-color: #FBFAF5;
+}
+
+.flow-image {
+    background-color: white;
+}
+
+.flow-title {
+    padding: 10px 100px;
+    background-color: white;
+}
+
+.userflow {
+    padding: 0 60px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #614405;
+    font-size: 30px;
+}
+
+.parallax01 {
+    /* The image used */
+    background-image: url("../images/med.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sketches {
+    background-color: white;
+}
+
+.color-title {
+    padding: 10px 100px;
+    background-color: white;
+}
+
+.color-proto {
+    padding: 0 60px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #614405;
+    font-size: 30px;
+}
+
+.sitemap-image {
+    background-color: #FBFAF5;
+}
+
+#mid-level-proto {
+    width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-prototype {
+    background-color: white;
+}
+
+.color-words {
+    padding: 10px 60px;
+}
