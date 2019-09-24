@@ -1040,6 +1040,46 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 
 
 
+.button_story {
+    position: relative;
+    /* padding: 20px 180px; */
+    margin: 0 180px;
+    background-color: #1b7482;
+    /* border: none; */
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    /* width: 200px; */
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button_story:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button_story:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
 
 
 

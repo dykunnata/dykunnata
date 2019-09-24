@@ -526,3 +526,94 @@ div#register {
       border-radius: 8px;
       color: white;
   }
+
+
+  @media screen and (max-width: 1200px) and (min-width: 300px) {
+  
+
+.aboutbees {
+    padding: 0 10px;
+}
+
+.post-container {
+    padding: 10px 0;
+}
+
+.einstein {
+    padding: 50px 60px;
+}
+
+.survey {
+    padding: 10px 10px;
+}
+
+img#chart {
+    width: 80% !important;
+    margin: 20px 50px !important
+}
+
+#survey-it {
+    margin-top: 5px;
+}
+
+#comp-analysis {
+    width: 100vw;
+}
+
+.matrix-text {
+    padding: 10px 10px;
+}
+
+.user-title {
+    padding: 10px 10px;
+}
+
+.sitemap-title {
+    padding: 10px 10px;
+}
+
+#sitemap-pic {
+    width: 100vw;
+}
+
+.flow-title {
+    padding: 10px 10px;
+}
+
+.color-words {
+    padding: 10px 0px;
+}
+
+.color-proto {
+    padding: 0;
+}
+
+.iteration-words {
+    padding: 10px 0px;
+}
+
+.iteration-title {
+    padding: 0;
+}
+
+.next-title {
+    padding: 0;
+}
+
+.next-words {
+    padding: 10px 0px;
+}
+
+#photo-nextsteps {
+    width: 100vw;
+}
+
+#bee-image {
+    width: 10%;
+}
+
+.bee1 {
+    margin: 20px 10px;
+}
+
+}

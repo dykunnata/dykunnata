@@ -216,27 +216,28 @@
       color: whitesmoke;
   }
 
-  .parallaxedu4 {
+  /* .parallaxedu4 { */
     /* The image used */
-    background-image: url(../images_edu/nav-cards.png);
+    /* background-image: url(../images_edu/nav-cards.png); */
   
     /* Set a specific height */
-    min-height: 500px; 
+    /* min-height: 500px;  */
    
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     /* background-size: cover; */
-  }
+  /* } */
 
   #sitemap {
       background-color: rgb(7, 7, 61) !important;
   }
 
-  #sitemap-image {
-      max-width: 900px;
+  .sitemap-image {
+      /* max-width: 900px; */
+      width: 156vh;
             padding: 10px 20px;
             margin: 0 auto;
             display: block;
@@ -251,8 +252,15 @@
     color: rgb(233, 241, 241) !important;
     font-weight: 600;
     font-size: 25px;
+    padding-bottom: 20px;
   }
 
+  img#newnav-image {
+    /* width: 100%; */
+    margin: 0 auto !important;
+    display: block !important;
+    width: 150vh !important;
+}
 
   #styletile{
     font-family: 'Muli', sans-serif;
@@ -296,20 +304,20 @@
     padding: 0 250px;
     color: whitesmoke;
 }
-
-.parallaxedu5 {
+/* 
+.parallaxedu5 { */
     /* The image used */
-    background-image: url(../images_edu/styletile.png);
+    /* background-image: url(../images_edu/styletile.png); */
   
     /* Set a specific height */
-    min-height: 800px; 
+    /* min-height: 800px;  */
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
 
 
   #sketch{
@@ -329,7 +337,15 @@
     font-size: 25px;
   }
 
+#styleee-image {
+  width: 160vh;
+  margin: 0 auto;
+  display: block;
+}
 
+#guidestyle {
+  background-color: white;
+}
   /* #sketchtext {
       padding: 20px 200px;
       width: 30%;
@@ -406,6 +422,19 @@
   #wires-image {
       padding: 20px 100px;
   }
+
+  #wires-image1 {
+    border: 1px solid darkslategrey;
+}
+
+#wires-image2 {
+  border: 1px solid darkslategrey;
+}
+
+#wires-image3 {
+  border: 1px solid darkslategrey;
+  padding: 5px;
+}
 
   #ed-images {
     margin: 10px 100px;

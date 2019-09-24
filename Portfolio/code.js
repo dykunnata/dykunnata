@@ -79,3 +79,39 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 //     }
 // }, 100);
 
+$(document).ready(function() {
+    ScrollReveal().reveal('.aboutskills', { delay: 200 });
+    ScrollReveal().reveal('.aboutmediv', { delay: 200 });
+    ScrollReveal().reveal('#myworks_title', { delay: 200 });
+    ScrollReveal().reveal('#touch_title', { delay: 200 });
+    ScrollReveal().reveal('.button_story', { delay: 200 });
+    ScrollReveal().reveal('.aboutachieve', { delay: 200 });
+    ScrollReveal().reveal('.column', { delay: 200 });
+    ScrollReveal().reveal('.project1', { delay: 200 });
+    ScrollReveal().reveal('.project2', { delay: 200 });
+    ScrollReveal().reveal('.project3', { delay: 200 });
+    ScrollReveal().reveal('.project4', { delay: 200 });
+    ScrollReveal().reveal('.contact-box', { delay: 200 });
+    ScrollReveal().reveal('.contacticons', { delay: 200 });
+    ScrollReveal().reveal('#desk_link', { delay: 1000 });
+    ScrollReveal().reveal('#mob_link', { delay: 1000 });
+    ScrollReveal().reveal('.desktop_image', { delay: 300 });
+    ScrollReveal().reveal('.mobile_image', { delay: 600 });
+    ScrollReveal().reveal('#mobile-image', { delay: 300 });
+    ScrollReveal().reveal('#cell-image', { delay: 300 });
+    ScrollReveal().reveal('#cell-image2', { delay: 600 });
+    ScrollReveal().reveal('#wires-image1', { delay: 300 });
+    ScrollReveal().reveal('#wires-image2', { delay: 800 });
+    ScrollReveal().reveal('#wires-image3', { delay: 1000 });
+    ScrollReveal().reveal('#myrole', { delay: 300 });
+    ScrollReveal().reveal('#overview', { delay: 800 });
+    ScrollReveal().reveal('#problem_top', { delay: 1200 });
+    ScrollReveal().reveal('#guidestyle', { delay: 400 });
+    ScrollReveal().reveal('#newnav-image', { delay: 300 });
+    ScrollReveal().reveal('.sitemap-image', { delay: 400 });
+    ScrollReveal().reveal('#heuru_title', { delay: 300 });
+    ScrollReveal().reveal('#heurutext', { delay: 500 });
+    ScrollReveal().reveal('#list_analysis', { delay: 700 });
+    ScrollReveal().reveal('#heuru-image', { delay: 1000 });
+    ScrollReveal().reveal('#testing', { delay: 400 });
+  });

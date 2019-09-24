@@ -811,11 +811,13 @@ height: 2px
   .problem {
     font-family: 'Muli', sans-serif;
     color: darkslategrey;
-    background-color: #274786;
+    /* background-color: #274786; */
+    background: url(../images_fff/probb.png);
+    height: 85vh;
+    background-size: cover;
   }
 
   #statement_title {
-    background-color: #274786;
     font-family: 'Bungee Outline', cursive;
     margin-top: 30px;
     padding-top: 20px;
@@ -831,7 +833,7 @@ height: 2px
   padding-right: 80px;
   padding-bottom: 30px;
   font-size: 25px;
-  background-color: #274786;
+  /* background-color: #274786; */
   color: whitesmoke;
  }
 
