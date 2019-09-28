@@ -721,19 +721,49 @@ background-color: white;
   .lining {
 width: 80%;
    background: rgb(23, 92, 73);
+   margin: 0 auto;
+   padding: 0 20px;
 margin-bottom: 20px;
-margin-left: 120px;
+/* margin-left: 120px; */
+display: block;
 height: 2px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+-webkit-animation: increase 3s;
+-moz-animation:    increase 3s; 
+-o-animation:      increase 3s; 
+animation:         increase 3s; 
+animation-fill-mode: forwards;
   }
+
+  @keyframes increase {
+    100% {
+        width: 100%;
+    }
+}
+
+
 
   .lining2 {
     width: 50%;
 background-color: #274786;
+margin: 0 auto;
 margin-bottom: 20px;
-margin-left: 300px;
-height: 2px
+/* margin-left: 120px; */
+display: block;
+/* margin-left: 300px; */
+height: 2px;
+-webkit-animation: increase 3s;
+-moz-animation:    increase 3s; 
+-o-animation:      increase 3s; 
+animation:         increase 3s; 
+animation-fill-mode: forwards;
   }
+
+  @keyframes increase {
+    80% {
+        width: 50%;
+    }
+}
 
 
   .research_item {
@@ -753,15 +783,16 @@ height: 2px
   }
 
   .res {
-    margin-right: 60px;
-    margin-left: 45px;
+    /* margin-right: 60px;
+    margin-left: 45px; */
+    margin: 0 150px;
     display: flex;
   }
 
   #survey {
     display: inline-block;
-    margin: 30px 45px;
-    width: 92%;
+    margin: 30px 150px;
+    width: 75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -802,9 +833,8 @@ height: 2px
 
   #analysisimage {
     display: flex;
-    margin: auto 25px;
-    margin-left: 140px;
-    width: 80%;
+    margin: auto 150px;
+    width: 75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
@@ -861,8 +891,7 @@ height: 2px
    /* width: 500px;
    height: 320px; */
    width: 55%;
-   margin-left: 25px;
-   margin-bottom: 20px;
+   margin: 20px 100px;
    border: solid 2px white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
@@ -884,8 +913,7 @@ height: 2px
   /* width: 500px;
   height: 320px; */
   width: 55%;
-  margin-left: 25px;
-  margin-bottom: 20px;
+  margin: 20px 100px;
   border: solid 2px white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -916,12 +944,12 @@ height: 2px
 }
 
 .story_image {
-  margin-left: 180px;
-  width: 70%;
+  margin: 20px 150px;
+  width: 75%;
 }
 
 #tellstory {
-  margin-left: 160px;
+  margin: 0 150px;
 }
 
 .infoarch {
@@ -938,7 +966,8 @@ height: 2px
 }
 
 .ia_image {
-  margin-left: 50px;
+  margin: 0 150px;
+  margin-right: 100px;
   width: 50%;
 }
 
@@ -947,7 +976,6 @@ height: 2px
   width: 20%;
   display: inline-block;
   vertical-align: top;
-  margin-left: 150px;
   margin-top: 180px;
 }
 
@@ -965,15 +993,15 @@ height: 2px
 }
 
 .lowfi_image {
-  margin-left: 50px;
+  margin: 0 150px;
   margin-bottom: 20px;
-  width: 92%;
+  width: 76%;
   border: 2px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #usertest {
-  margin: 20px 120px;
+  margin: 20px 150px;
 }
 
 .styleguide {
@@ -990,8 +1018,8 @@ height: 2px
 }
 
 .styleguide_image {
-  margin-left: 35px;
-  width: 94%;
+  margin: 0 120px;
+  width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -1009,15 +1037,15 @@ height: 2px
 }
 
 .prototype_image {
-  margin-left: 40px;
+  margin: 0 120px;
   margin-bottom: 20px;
-  width: 94%;
+  width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .prototype_image2 {
-  margin-left: 40px;
-  width: 94%;
+  margin: 0 120px;
+  width: 80%;
   margin-bottom: 60px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1111,7 +1139,7 @@ font-size: 12px;
   background-image: url("../images_fff/quotewords.png");
 
   /* Set a specific height */
-  min-height: 300px; 
+  min-height: 600px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -1139,7 +1167,7 @@ font-size: 12px;
   background-image: url("../images_fff/faces.jpg");
 
   /* Set a specific height */
-  min-height: 200px; 
+  min-height: 250px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
