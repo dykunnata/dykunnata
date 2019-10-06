@@ -15,6 +15,10 @@
     background-size: cover;
   }
 
+  .customNav {
+    margin-left: auto;
+  }
+  
 #whyedu_title {
     text-align: center;
     padding-top: 20px;
@@ -238,7 +242,7 @@
   .sitemap-image {
       /* max-width: 900px; */
       width: 156vh;
-            padding: 10px 20px;
+            padding: 10px 30px;
             margin: 0 auto;
             display: block;
   }
@@ -556,13 +560,12 @@
     /* background-color: white; */
     padding-bottom: 20px;
     background-color: white;
-    padding-top: 20px;
   }
 
   #results_title {
     text-align: center;
     padding-top: 20px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 30px;
     background-color: white;
     color: darkslategray;
@@ -577,10 +580,13 @@
   }
 
   ul#resultslist {
-    padding-left: 220px !important;
+    padding: 0 220px !important;
   }
 
-
+  div.res {
+    margin: 0 auto;
+    display: flex;
+}
   #maze {
     font-family: 'Muli', sans-serif;
     /* background-color: white; */

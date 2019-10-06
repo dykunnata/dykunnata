@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    background-color: whitesmoke;
+    background-color: white;
     width: 100vw;
 }
 
@@ -17,6 +17,9 @@ position: relative;
 height: 800px;
 }
 
+.customNav {
+  margin-left: auto;
+}
 
 .hello {
     left: 48%;
@@ -87,7 +90,6 @@ ul {
 
     text-align: left;
     font-family: 'Muli', sans-serif;
-    margin-right: 200px;
     padding-left: 350px;
 }
 
@@ -695,6 +697,13 @@ float: right;
     font-family: 'Muli', sans-serif;
   }
 
+.pro-sol {
+  font-size: 22px;
+  color: orange;
+  font-weight: 900;
+}
+
+
   .knockout {
     background: url(https://homdor.com/public/anonymous/frankwillingarmadillo?g=aHR0cHM6Ly90aHVtYnMuZ2Z5Y2F0LmNvbS9GcmFua1dpbGxpbmdBcm1hZGlsbG8tc2l6ZV9yZXN0cmljdGVkLmdpZg==);
     color: red;
@@ -829,6 +838,11 @@ animation-fill-mode: forwards;
     background-color: white;
     color: darkslategrey;
     font-size: 25px;
+  }
+
+  #competi_text {
+    margin: 0 160px;
+    margin-bottom: 40px;
   }
 
   #analysisimage {
@@ -1008,6 +1022,11 @@ animation-fill-mode: forwards;
   font-family: 'Muli', sans-serif;
 }
 
+#guide_color {
+  margin: 0 150px;
+  margin-bottom: 40px;
+}
+
 #styleguide_title {
   text-align: center;
   color: darkslategrey;
@@ -1025,6 +1044,17 @@ animation-fill-mode: forwards;
 
 .prototype {
   font-family: 'Muli', sans-serif;
+}
+
+.prot1 {
+  margin: 0 150px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.prot2 {
+  margin: 40px 150px;
+  padding: 0;
 }
 
 #prototype_title {

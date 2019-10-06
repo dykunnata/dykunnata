@@ -76,6 +76,16 @@ footer {
     position: relative;
   }
   
+#hello1 {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-weight: 500; */
+}
+
+#picture-hello {
+  width: 5%;
+}
+
   #hello {
     font-size: 30px;
   }
@@ -237,7 +247,9 @@ footer {
     border: 1px solid rgb(10, 39, 133);
   }
    
-
+.bold {
+  font-weight: bold;
+}
   
   @media screen and (orientation: portrait) {
     #aboutme {
@@ -256,6 +268,10 @@ footer {
    .box-around {
      width: 100%;
    }
+
+   button.button_story {
+    margin: 0 60px;
+}
   }
   
   @media screen and (max-width: 1200px) and (min-width: 600px) {
@@ -342,6 +358,8 @@ footer {
       font-weight: 500;
   }
 
+
+
   .aboutachieve {
     padding: 20px 180px;
   }
@@ -385,8 +403,10 @@ footer {
   .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    margin-top: 20px;
+    /* background-color: white; */
+    /* margin-top: 20px; */
+    margin: 20px 80px;
+    margin-top: 10px;
   }
   
   .flex-container > div {
@@ -544,13 +564,16 @@ a#beelink {
     text-align: left;
     font-size: 30px;
     font-weight: 500;
-    padding: 20px 180px;
+    padding: 20px 100px;
+    color: white;
+    text-align: center;
 }
 
 .contacts {
     background: url(../images/LHOLK9MS1O.jpg);
     /* background-repeat: no-repeat; */
-   padding: 40px;
+   padding-bottom: 40px;
+   padding-top: 10px;
     /* display: flex; */
 }
 
@@ -578,7 +601,7 @@ a#beelink {
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     border-radius: 20px;
     min-width: 240px;
 }
@@ -593,11 +616,10 @@ a#beelink {
 }
 
 #avatar {
-    margin-bottom: 10px;
-    border-radius: 120px;
-    border: white solid 1px;
-    max-width: 200px;
-    margin-top: 20px;
+  margin-bottom: 25px;
+  border-radius: 120px;
+  border: white solid 1px;
+  max-width: 200px;
 }
 
 .contact_title {
@@ -612,7 +634,7 @@ a#beelink {
 }
 
 #circle {
-    background-color: #d2d6d7;
+    background-color: white;
     padding: 2px;
     border-radius: 50px;
 }
@@ -757,7 +779,7 @@ a#beelink {
 
 
 /* Extra Things */
-body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+body{background: white;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 
 
 /* Contacts section */
@@ -876,11 +898,18 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
   }
 
 
-
+.customNav {
+  margin-left: auto;
+}
 
 /* leaf animations */
 
-#leaves {position:relative;top:-50px;width:100%;text-align: right;}
+#leaves {
+  position: absolute;
+  top:-50px;
+  width:100%;
+  text-align: right;
+}
 
 #leaves i {
     display: inline-block;
@@ -1081,5 +1110,11 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
 
 
 
-
+.my773 {
+  color: white !important;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
 

@@ -17,6 +17,10 @@ body {
     border-radius: 8px;
   }
 
+  .customNav {
+    margin-left: auto;
+  }
+
   #beee {
     float: right;
     margin: 0 50px;
