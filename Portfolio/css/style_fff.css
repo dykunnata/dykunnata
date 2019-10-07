@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-color: white;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .me {
@@ -542,28 +542,7 @@ text-align: right;
       ;
     }
   } */
-  @media screen and (orientation: portrait) {
-    .grid {
-      display: grid;
-      grid-template-rows:1fr 1fr 1fr 1fr;
-      grid-template-columns:1fr;
-      grid-template-areas:
-      "work1"
-      "work2"
-      "work3"
-      "work4"
-      ;
-    }
-    .flip-card img {
-      width: 80%;
   
-  }
-  /* .parallax{
-    width: 414px;
-    height: 300px;
-  } */
-  }
-
 
 
   .flip-card {
@@ -1150,7 +1129,7 @@ font-size: 12px;
    padding-top: 40px;
 }
 
-.parallax {
+.parallaxfff {
   /* The image used */
   background-image: url("../images_fff/first.png");
 
@@ -1249,4 +1228,156 @@ font-size: 12px;
   background-size: cover;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 200px) {
+  .grid {
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "work1"
+    "work2"
+    "work3"
+    "work4"
+    ;
+  }
+  .flip-card img {
+    width: 80%;
+
+}
+div.parallaxfff {
+  background: url(../images_fff/first.png);
+  background-size: cover;
+  width: 120%;
+}
+
+div.parallax1 {
+  /* The image used */
+  background: url("../images_fff/quotewords.png");
+  background-size: cover;
+  /* width: 90%; */
+  min-height: 300px; 
+}
+.problem {
+height: 40vh !important;
+width: 100%;
+}
+
+div.parallax3 {
+/* The image used */
+background: url("../images_fff/faces.jpg");
+background-size: cover;
+width: 120%;
+height: 30vh;
+}
+
+.story_image {
+width: 90% !important;
+margin: 20px 30px;
+}
+
+div.parallax5 {
+background: url(https://i.gifer.com/J4o.gif);
+width: 120%;
+}
+
+.res {
+margin: 0 40px !important;
+}
+
+#survey {
+margin: 30px 30px !important;
+width: 90% !important;
+
+}
+
+#competi_text {
+  margin: 0 30px;
+}
+
+#analysisimage {
+  margin: 20px 50px;
+  width: 80%;
+}
+
+.persona_image1 {
+  width: 90%;
+  margin: 20px 20px;
+}
+
+.tellimage1 {
+  width: 80%;
+  vertical-align: top;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.persona_image2 {
+  width: 90%;
+  margin: 20px 20px;
+}
+
+.tellimage2 {
+  width: 80%;
+  vertical-align: top;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#tellstory {
+  margin: 0 30px;
+}
+
+
+
+.ia_image {
+    margin: 0 30px;
+    width: 90%;
+}
+
+#tell_ia {
+  text-align: left;
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 30px;
+}
+
+#usertest {
+  margin: 20px 30px;
+}
+
+
+.lowfi_image {
+  margin: 20px 30px;
+  width: 90%;
+}
+
+#guide_color {
+  margin: 20px 30px;
+}
+
+.styleguide_image {
+  margin: 20px 30px;
+  width: 90%;
+}
+
+.prot1 {
+  margin: 20px 30px;
+}
+.prot2 {
+  margin: 20px 30px;
+}
+
+.prototype_image {
+  margin: 20px 30px;
+  width: 90%;
+}
+.prototype_image2 {
+  margin: 20px 30px;
+  width: 90%;
+}
+#next {
+  margin: 20px 30px;
+}
+}
 

@@ -620,4 +620,35 @@ img#chart {
     margin: 20px 10px;
 }
 
+div#register {
+    height: auto;
+}
+
+.parallax0 {
+    background: url("../images/bee-on-flower.jpg");
+    height: 10vh;
+    object-fit: cover;
+}
+
+.parallax {
+    /* The image used */
+    background: url("../images/mount.png");
+    height: 20vh;
+    object-fit: cover;
+}
+
+.parallax01 {
+    /* The image used */
+    background: url("../images/medok.png");
+    height: 20vh;
+    object-fit: cover;
+}
+
+.parallax02 {
+    /* The image used */
+    background: url("../images/zelena.png");
+    /* height: 20%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }

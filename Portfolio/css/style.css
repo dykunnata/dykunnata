@@ -674,12 +674,13 @@ a#beelink {
 /* 
   @media screen and (orientation: portrait)  */
   
-  @media screen and (max-width: 1200px) and (min-width: 200px) {
+  @media screen and (max-width: 1200px) and (min-width: 300px) {
     .nata {
         font-size: 40px;
     }
     .ux {
         font-size: 20px;
+        margin: 0 20px;
  }
  .aboutmediv {
     padding: 10px 60px;
@@ -698,6 +699,10 @@ a#beelink {
     width: 100%;
     margin: 10px 10px;
     line-height: 25px;
+}
+
+.flex-container {
+  margin: 0 10px;
 }
 #touch_title {
     padding: 10px 60px;

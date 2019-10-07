@@ -641,13 +641,26 @@
   @media screen and (orientation: portrait) 
   {
 
+  
+  img#newnav-image {
+      width: 100% !important;
+  }
+
+  img.sitemap-image {
+    width: 100% !important;
+}
+
+#styleee-image {
+  width: 100%;
+}
+
     #heuru-image {
-        max-width: 500px;
+        max-width: 100%;
         padding: 10px 5px;
       }
 
       #user_image {
-        max-width: 500px;
+        max-width: 100%;
         padding: 10px 5px;
       }
 
@@ -697,7 +710,7 @@
         }
 
 #ed-images {
- margin: 10px 10px;
+ margin: none;
  padding-left: 5px;
 
     }
@@ -711,11 +724,11 @@
 
     #testplan-image {
         padding: 20px 10px;
-        margin-left: 40px;
+        margin-left: none;
     }
 
     ul#resultslist {
-        padding-left: 60px !important;
+        padding: 50px !important;
     }
     ul {
         margin-right: 40px !important;
@@ -729,14 +742,24 @@
     }
 
     .parallaxedu1 {
-        background-attachment: scroll;
-        background-size: 50%;
+      background: url("../images_edu/systemic-evaluation.jpg");
+      height: 20vh;
+      object-fit: cover;
+    }
+
+    .parallaxedu3 {
+      background: url(../images_edu/test.jpg);
     }
 
     .parallaxedu2 {
         background-attachment: scroll;
         background-size: 100%;
 
+  }
+
+  .parallaxedu6 {
+    /* The image used */
+    background: url(../images_edu/globe.jpg);
   }
 
   .parallaxedu4 {
@@ -753,6 +776,15 @@
     background-attachment: scroll;
     background-size: 120%;
   }
+
+  .parallaxedu8 {
+    background: url(../images_edu/book-edu.jpg);
+    background-size: cover;
+  }
+
+  .desktop_image {
+    width: 30% !important;
+}
 }
  
   
