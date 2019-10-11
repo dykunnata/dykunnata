@@ -18,6 +18,11 @@
   .customNav {
     margin-left: auto;
   }
+
+  .nav-link:hover { 
+    background-color: rgb(191, 218, 197);
+    border-radius: 8px;
+  }
   
 #whyedu_title {
     text-align: center;
@@ -637,11 +642,11 @@
     font-size: 25px;
   }
 
-/* 
-  @media screen and (orientation: portrait) 
+
+  /* @media screen and (orientation: portrait) 
   { */
 
-    @media screen and (max-width: 800px) and (min-width: 200px) {
+    @media screen and (orientation: portrait) and (max-width: 768px) and (min-width: 200px) {
   
   img#newnav-image {
       width: 100% !important;
