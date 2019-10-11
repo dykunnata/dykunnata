@@ -459,6 +459,7 @@ footer {
       font-size: 14px;
       text-align: left;
       padding: 20px 20px;
+      font-family: 'Muli', sans-serif;
   }
   
   #pet {
@@ -514,6 +515,7 @@ a#beelink {
     font-size: 14px;
     text-align: left;
     padding: 20px 20px;
+    font-family: 'Muli', sans-serif;
 }
 
 .project4 {
@@ -538,6 +540,7 @@ a#beelink {
     font-size: 14px;
     text-align: left;
     padding: 20px 20px;
+    font-family: 'Muli', sans-serif;
 }
 
 
@@ -674,7 +677,7 @@ a#beelink {
 /* 
   @media screen and (orientation: portrait)  */
   
-  @media screen and (max-width: 1200px) and (min-width: 300px) {
+  @media screen and (max-width: 700px) and (min-width: 300px) {
     .nata {
         font-size: 40px;
     }
