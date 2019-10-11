@@ -637,10 +637,11 @@
     font-size: 25px;
   }
 
-
+/* 
   @media screen and (orientation: portrait) 
-  {
+  { */
 
+    @media screen and (max-width: 800px) and (min-width: 200px) {
   
   img#newnav-image {
       width: 100% !important;
@@ -752,8 +753,10 @@
     }
 
     .parallaxedu2 {
-        background-attachment: scroll;
-        background-size: 100%;
+        /* background-attachment: scroll; */
+        height: 20vh;
+        object-fit: cover;
+        background: url("../images_edu/old\ web.png");
 
   }
 
