@@ -23,6 +23,15 @@
     background-color: rgb(191, 218, 197);
     border-radius: 8px;
   }
+
+  .linky {
+    color: white;
+  }
+  
+  .linky:hover {
+    color: rgb(9, 8, 70);
+    text-decoration: none;
+  }
   
 #whyedu_title {
     text-align: center;

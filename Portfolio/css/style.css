@@ -355,7 +355,9 @@ footer {
   }
 
   .aboutmediv {
-      padding: 20px 180px;
+    padding: 20px 180px;
+    width: 80%;
+    margin: 0 auto;
   }
 
   #aboutmetitle {
@@ -366,6 +368,8 @@ footer {
 
 .acircle {
   font-family: 'Muli', sans-serif;
+    width: 80%;
+    margin: 0 auto;
 }
 
   .aboutachieve {
@@ -380,7 +384,10 @@ footer {
 
   #aboutachievetitle {
     font-size: 30px;
+    margin: 0 auto;
     font-weight: 500;
+    width: 72%;
+    margin-bottom: 20px;
 }
 
 .aboutskills {

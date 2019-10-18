@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-color: white;
-    /* width: 100vw; */
+    width: 100vw;
 }
 
 
@@ -481,7 +481,15 @@ padding: 5px 5px;
 border-radius: 8px;
 font-size: 12px;
 }
+ 
+.linky {
+  color: white;
+}
 
+.linky:hover {
+  color: rgb(9, 8, 70);
+  text-decoration: none;
+}
 
 #mob_link {
 display: inline-block;

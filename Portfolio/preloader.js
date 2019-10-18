@@ -62,8 +62,8 @@ var loading = document.getElementById('preloaderI');
 var style = document.createElement('style');
 var dot = 0;
 
-$(preloaderSpan).fadeIn(2000);
-$(loading).fadeIn(2500)
+$(preloaderSpan).fadeIn(500);
+$(loading).fadeIn(500)
 preloader.appendChild(loader);
 preloader.appendChild(loading);
 
@@ -84,4 +84,4 @@ var stateCheck = setTimeout(() => {
     if (document.readyState === 'complete') {
         $(preloader).fadeOut(1000);
     }
-}, 3000);
+}, 1500);
