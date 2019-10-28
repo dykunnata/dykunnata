@@ -75,7 +75,7 @@ setInterval(() => {
     } else {
       loading.innerHTML = loading.innerHTML + ".";
     } dot++;
-}, 1000);
+}, 500);
 
 document.body.appendChild(preloader);
 
