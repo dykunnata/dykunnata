@@ -71,12 +71,12 @@ preloader.appendChild(loading);
 
 loading.innerHTML = 'Sending out a good vibe';
 setInterval(() => {
-    // if(dot > 3){
-    //   dot = 0;
-    //   loading.innerHTML = "Loading";
-    // } else {
-    //   loading.innerHTML = loading.innerHTML + ".";
-    // } dot++;
+    if(dot > 3){
+      dot = 0;
+      loading.innerHTML = "Loading";
+    } else {
+      loading.innerHTML = loading.innerHTML + ".";
+    } dot++;
 }, 500);
 
 document.body.appendChild(preloader);

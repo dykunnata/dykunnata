@@ -482,8 +482,8 @@ a#beelink {
 }
 
   #bee {
-      margin: 0 100px;
-      
+      margin: 0 auto;
+      display: block;
   }
 
   #beestitle {
@@ -694,10 +694,25 @@ a#beelink {
  }
  .aboutmediv {
     padding: 10px 60px;
+    width: 100%;
 }
 .aboutachieve {
     padding: 10px 60px;
+    width: 100%;
 }
+
+.acircle {
+  width: 100%;
+}
+
+#picture-hello {
+  width: 15%;
+}
+
+#aboutachievetitle {
+  width: 100%;
+}
+
 .aboutskills {
     padding: 10px 60px;
     margin-bottom: 30px;
