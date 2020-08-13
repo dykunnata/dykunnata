@@ -1,0 +1,10 @@
+.one {
+    color: red;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+}
+
+#two {
+    border: 2px solid darkblue;
+    width: 50%;
+}
